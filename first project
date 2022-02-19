@@ -1,1 +1,15 @@
-#include <stdio.h>
+include <stdio.h>
+
+/**
+ ** print multiple variables
+ **
+ ** Return: Always 0.
+ **/
+
+int main ()
+{
+    double salary = 950.5;
+    int age = 25;
+    printf('age: %d, salary: %lf', age, salary);
+    return 0;
+}
