@@ -16,6 +16,7 @@ int main ()
     else
     {
         printf("%d and %d are equal\n", n1, n2);
+        scanf("%d", &n);
     }
     return 0;
 }
