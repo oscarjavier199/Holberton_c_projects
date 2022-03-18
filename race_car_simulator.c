@@ -33,7 +33,7 @@ void printFirstPlaceAfterLap(struct Race race){
   race.firstPlaceRaceCarColor;
 
   int currentLap = 0;
-  char* firstPlaceDriverName = "George";
+  char* firstPlaceDriverName = "Oscar";
   char* firstPlaceRaceCarColor = "Blue";
 
 
@@ -42,12 +42,12 @@ void printFirstPlaceAfterLap(struct Race race){
 };
 
 void printCongratulation(struct Race race){
-    race.currentLap;
+  race.currentLap;
   race.firstPlaceDriverName;
   race.firstPlaceRaceCarColor;
 
   int currentLap = 0;
-  char* firstPlaceDriverName = "George";
+  char* firstPlaceDriverName = "Oscar";
   char* firstPlaceRaceCarColor = "Blue";
 
   printf("Let's all congratulate %s in the %s race car for an amazing performance. It truly was a great race and everybody have a goodnight!\n", firstPlaceDriverName, firstPlaceRaceCarColor);
