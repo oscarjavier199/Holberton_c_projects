@@ -1,10 +1,11 @@
 #include<stdio.h>
 #include<string.h>
+
 int main() {
   int counter1[] = {0, 0, 0, 0};
   int counter2[] = {0, 0, 0, 0};
   char s1[] = "abcd";
-  char s2[] = "ad c b";
+  char s2[] = "ad c    sssdb";
   int flag = 0;
 
 for(int i = 0; i < strlen(s1); i++) {
@@ -53,6 +54,6 @@ if(flag == 0) {
   printf("Anagram!\n");
   }
 else if(flag == 1) {
-    printf("Not Anagram!");
+    printf("Not Anagram!\n");
 }
 }
