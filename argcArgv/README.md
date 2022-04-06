@@ -1,4 +1,4 @@
-# C - Recursion
+# C - argc and argv
 At the end of this project, we are expected to be able to explain to anyone, without the help of Google:
 
 General
