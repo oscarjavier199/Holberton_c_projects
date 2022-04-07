@@ -1,19 +1,16 @@
-#include "1-pi.h"
-#include "1-pi.h"
+#include "1-object_like_macro.h"
 #include <stdio.h>
 
 /**
- * main - check the code
- *
- * Return: Always 0.
- */
+ ** program will be replaced by a code fragment from a header
+ ** file "1-object_like_macro.h"
+ * @return 0
+ **/
+
 int main(void)
 {
-    float a;
-    float r;
-
-    r = 98;
-    a = PI * r * r;
-    printf("%.3f\n", a);
+    int s;
+    s = 556 + SIZE;
+    printf("%d\n", s);
     return (0);
 }
