@@ -17,7 +17,7 @@ struct Person
 
 int main(void)
 {
-    struct Person person1 = {"Michael", "Scumacher", " Hürth, Germany"};
+    struct Person person1 = {"Michael", "Schumacher", " Hürth, Germany"};
     struct Person person2 = {"Milla", "Jovovich", "kyiv, Ukraine"};
     person1.age = 53;
     person2.age = 46;
